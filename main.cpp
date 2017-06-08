@@ -18,5 +18,6 @@ void draw(std::vector<int> *x, std::vector<int> *y,int collumns, int rows)
 		std::vector<int> x = *x;
 		std::vector<int> y = *y;
 		mx2.lock();
+		
 	}
 }
