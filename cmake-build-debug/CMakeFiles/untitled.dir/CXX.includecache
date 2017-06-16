@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alek/SOP/SOP/Matrix.cpp
+Matrix.h
+/home/alek/SOP/SOP/Matrix.h
+curses.h
+-
+
+/home/alek/SOP/SOP/Matrix.h
+
+/home/alek/SOP/SOP/Pawn.cpp
+Pawn.h
+/home/alek/SOP/SOP/Pawn.h
+ncurses.h
+-
+
+/home/alek/SOP/SOP/Pawn.h
+
+/home/alek/SOP/SOP/main.cpp
+Matrix.h
+/home/alek/SOP/SOP/Matrix.h
+Pawn.h
+/home/alek/SOP/SOP/Pawn.h
+stdlib.h
+-
+random
+-
+chrono
+-
+mutex
+-
+thread
+-
+ncurses.h
+-
+

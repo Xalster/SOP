@@ -1,6 +1,5 @@
 #include "Matrix.h"
-#include <ncurses.h>
-#include <iostream>
+#include <curses.h>
 
 Matrix::Matrix()
 {
@@ -32,5 +31,5 @@ void Matrix::DrawMatrix(int h, int w)
 		col = 0;
 	}
 	getch();
-	endwin();	
+	endwin();
 }

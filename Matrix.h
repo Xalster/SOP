@@ -6,4 +6,4 @@ class Matrix
 		Matrix();
 		~Matrix();
 		void DrawMatrix(int h, int w);
-}
+};

@@ -1,12 +1,10 @@
 #include "Pawn.h"
 #include <ncurses.h>
-#include <iostream>
-#include <vector>
 
 Pawn::Pawn()
 {
 	initscr();
-	col = -1
+	col = -1;
 	row = -1;
 }
 
@@ -41,8 +39,8 @@ void Pawn::goLeft(int y)
 	updateMatrix(row,col);
 	if(col != 0)
 	{
-		col--l
-		placePawn(row,col)''
+		col--;
+		placePawn(row,col);
 	}
 	else
 	{
@@ -51,7 +49,7 @@ void Pawn::goLeft(int y)
 }
 void Pawn::goUp(int x)
 {
-	updateMatrix(row,col)
+	updateMatrix(row,col);
 	if(row != 0)
 	{
 		row--;
@@ -80,7 +78,7 @@ void Pawn::placePawn(int x, int y)
 	int nextRow = x;
 	int nextCol = y;
 	y *= 4;
-	y++
+	y++;
 
 	mvaddch(x,y,'I');
 	updatePawnPos(nextRow,nextCol);
@@ -95,6 +93,6 @@ void Pawn::updateMatrix(int row, int col)
 {
 	col *= 4;
 	col++;
-	mvaddch(row,col,"_");
+	mvaddch(row,col,'_');
 	endwin();
 }

@@ -17,4 +17,4 @@ class Pawn
 	private:
 		int col;
 		int row;
-}
+};

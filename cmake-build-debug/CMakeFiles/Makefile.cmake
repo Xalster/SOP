@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.7.2/CMakeSystem.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCInformation.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake"
@@ -18,17 +14,26 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeFindCodeBlocks.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeGenericSystem.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake"
+  "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CheckLibraryExists.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/GNU-C.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/GNU-CXX.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/GNU.cmake"
+  "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/FindCurses.cmake"
+  "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake"
+  "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-C.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/Linux.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/UnixPaths.cmake"
   "/home/alek/Pobrane/clion/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/ProcessorCount.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.7.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.7.2/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

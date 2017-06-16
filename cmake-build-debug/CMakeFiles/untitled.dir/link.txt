@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/untitled.dir/main.cpp.o  -o untitled 
+/usr/bin/c++    -std=c++11 -lncurses -g   CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/Matrix.cpp.o CMakeFiles/untitled.dir/Pawn.cpp.o  -o untitled -lcurses 
